@@ -49,9 +49,6 @@ const styles = StyleSheet.create({
     padding: 10,
     elevation: 2,
   },
-  buttonOpen: {
-    backgroundColor: "#F194FF",
-  },
   buttonClose: {
     backgroundColor: "#363636",
   },

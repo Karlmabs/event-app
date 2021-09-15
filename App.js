@@ -83,13 +83,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#242424",
-    // marginTop: 30,
   },
   header: {
     alignSelf: "center",
     backgroundColor: "white",
     borderRadius: 5,
     padding: "2%",
-    // marginTop: 30,
   },
 });
