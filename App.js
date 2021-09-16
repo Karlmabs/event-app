@@ -10,6 +10,7 @@ import {
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import DisplayOneEvent from "./app/DisplayOneEvent";
 import AdvancedModal from "./app/Modal";
+import Constants from "expo-constants";
 
 export default function App() {
   const [showModal, setShowModal] = useState(false);
@@ -89,5 +90,6 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderRadius: 5,
     padding: "2%",
+    marginTop: Constants.statusBarHeight,
   },
 });
